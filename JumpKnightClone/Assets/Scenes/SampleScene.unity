@@ -1022,25 +1022,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebbb40dc90942414584a47ef72cb452e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rb: {fileID: 564743390}
   walkSpeed: 6
   moveInput: 0
-  isGrounded: 0
-  isTouchingWall: 0
-  rb: {fileID: 564743390}
   groundMask:
     serializedVersion: 2
     m_Bits: 64
   wallMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   bounceMat: {fileID: 6200000, guid: 718c5dd545cd8d84dabea0e19a1ea4d8, type: 2}
   normalMat: {fileID: 6200000, guid: 48ef0700db5e59a43a4fd3cd30b9fe76, type: 2}
   canJump: 1
   canDoubleJump: 0
   jumpValue: 0
   checkpointThreshold: 10
-  wallJumpForce: {x: 10, y: 5}
-  wallJumpTime: 10
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

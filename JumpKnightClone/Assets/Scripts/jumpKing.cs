@@ -5,27 +5,31 @@ using UnityEngine.UI;
 
 public class jumpKing : MonoBehaviour
 {
+    public Rigidbody2D rb;
     public float walkSpeed;
     public float moveInput;
-    public bool isGrounded;
-    public bool isTouchingWall;
-    public Rigidbody2D rb;
     public LayerMask groundMask, wallMask;
+    private bool isFacingRight = true;
 
     public PhysicsMaterial2D bounceMat, normalMat;
     public bool canJump = true;
     public bool canDoubleJump = false;
     public float jumpValue = 0.0f;
+    private float jumpDistance = 0.0f;
+
+    private bool isWallSliding;
+    private float wallSlidingSpeed = 2f;
+    private bool isWallJumping;
+    private float wallJumpingDirection;
+    private float wallJumpingTime = 0.2f;
+    private float wallJumpingCounter;
+    private float wallJumpingDuration = 0.4f;
+    private Vector2 wallJumpingPower = new Vector2(8f, 16f);
 
     public float checkpointThreshold = 100.0f;
-    private float jumpDistance = 0.0f;
     private bool canSetCheckpoint = false;
     private Vector2 checkpointPosition;
     private bool hasCheckpoint = false;
-
-    public Vector2 wallJumpForce;
-    public float wallJumpTime = 0.5f;
-    private float wallJumpTimer;
 
     void Start()
     {
@@ -34,28 +38,16 @@ public class jumpKing : MonoBehaviour
 
     void Update()
     {
+        //Movement Controller
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        isGrounded = Physics2D.OverlapBox(new Vector2(transform.position.x, transform.position.y - 0.5f), 
-            new Vector2(0.9f, 0.4f), 0f, groundMask);
-        isTouchingWall = Physics2D.Raycast(transform.position, Vector2.right * Mathf.Sign(moveInput), 0.7f, wallMask);
-        //Debug.Log(rb.velocity.y);
-
-        if (isTouchingWall)
-        {
-            Debug.Log("isTouchingWall");
-        }
-        //if (isGrounded)
-        //{
-        //    Debug.Log("isTouchingGround");
-        //}
-        if (jumpValue == 0.0f && isGrounded)
+        //Move when it is not walking and is touching ground
+        if (jumpValue == 0.0f && isGrounded())
         {
             rb.velocity = new Vector2(moveInput * walkSpeed, rb.velocity.y);
         }
 
-       
-
+        //Change physics materials if is jumping or not for bouncingness
         if (jumpValue > 0)
         {
             rb.sharedMaterial = bounceMat;
@@ -65,34 +57,26 @@ public class jumpKing : MonoBehaviour
             rb.sharedMaterial = normalMat;
         }
 
-        if (Input.GetKey("space") && isGrounded && canJump)
+        //When click space and is touching ground, start charging the jump force
+        if (Input.GetKey("space") && isGrounded() && canJump)
         {
             jumpValue += 0.1f;
         }
-        
-        if(Input.GetKeyDown("space") && isGrounded && canJump)
+        //In the instant that space is pressed and is grounded, stop moving and mantain y movemement.
+        if(Input.GetKeyDown("space") && isGrounded() && canJump)
         {
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
-
         }
-
-        if (Input.GetKeyDown("space") && canDoubleJump && !isGrounded)
+        //If is not touching ground and can double jump, when press space, add force in y
+        if (Input.GetKeyDown("space") && canDoubleJump && !isGrounded())
         {
             Debug.Log("Double Jump");
             //Invoke("ResetJump", 0.2f);
-
             rb.velocity = new Vector2(rb.velocity.x, 10.0f);
             canDoubleJump = false;
         }
-
-        /* if(isTouchingWall && Input.GetKeyDown("space"))
-         {
-             rb.velocity = new Vector2(-Mathf.Sign(moveInput) * wallJumpForce.x, wallJumpForce.y);
-             wallJumpTimer = wallJumpTime;
-         }*/
-
-
-        if (jumpValue >= 20f && isGrounded)
+        //If jump value is fully charged and it is touching the ground, jump
+        if (jumpValue >= 20f && isGrounded())
         {
             float tempx = moveInput * walkSpeed;
             float tempy = jumpValue;
@@ -102,9 +86,10 @@ public class jumpKing : MonoBehaviour
 
         }
 
+        //when release space, jump
         if (Input.GetKeyUp("space"))
         {
-            if (isGrounded)
+            if (isGrounded())
             {
                 rb.velocity = new Vector2(moveInput * walkSpeed, jumpValue);
                 jumpValue = 0.0f;
@@ -138,6 +123,32 @@ public class jumpKing : MonoBehaviour
             jumpDistance = 0.0f;
             //Debug.Log("Going to checkpoint");
         }
+        WallSlide();
+        WallJump();
+
+        //if (!isWallJumping)
+        //{
+        //    Flip();
+        //}
+    }
+
+    //private void FixedUpdate()
+    //{
+    //    if (!isWallJumping)
+    //    {
+    //        rb.velocity = new Vector2(moveInput * walkSpeed, rb.velocity.y);
+    //    }
+    //}
+
+    private bool isGrounded()
+    {
+        return Physics2D.OverlapBox(new Vector2(transform.position.x, transform.position.y - 0.5f),
+           new Vector2(0.9f, 0.4f), 0f, groundMask);
+    }
+
+    private bool isWalled()
+    {
+        return Physics2D.Raycast(transform.position, Vector2.right * Mathf.Sign(moveInput), 0.7f, wallMask);
     }
 
     void ResetJump()
@@ -150,40 +161,71 @@ public class jumpKing : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawCube(new Vector2(transform.position.x, transform.position.y - 0.5f), new Vector2(0.9f, 0.2f));
-    }
-    void OnCollisionEnter2D(Collision2D collision)
+    }       
+
+    private void WallSlide()
     {
-        if (collision.gameObject.tag == "wallMask")
+        if (isWalled() && !isGrounded() && moveInput != 0f)
         {
-            Debug.Log("pared");
-            WallTimer();
+            Debug.Log("WallSliding");
+            isWallSliding = true;
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+        }
+        else
+        {
+            isWallSliding = false;
+        }   
+    }
+
+    private void WallJump()
+    {
+        if (isWallSliding)
+        {
+            isWallJumping = false;
+            wallJumpingDirection = -transform.localScale.x;
+            wallJumpingCounter = wallJumpingTime;
+
+            CancelInvoke(nameof(StopWallJumping));
+        }
+        else
+        {
+            wallJumpingCounter -= Time.deltaTime;
+        }
+
+        if(Input.GetKeyDown("space") && wallJumpingCounter > 0f)
+        {
+            isWallJumping = true;
+            rb.velocity = new Vector2(wallJumpingDirection * wallJumpingPower.x, wallJumpingPower.y);
+            wallJumpingCounter = 0f;
+            Debug.Log("WallJump");
+
+            if (transform.localScale.x != wallJumpingDirection)
+            {
+                isFacingRight = !isFacingRight;
+                Vector3 localScale = transform.localScale;
+                localScale.x *= -1f;
+                transform.localScale = localScale;
+            }
+
+            Invoke(nameof(StopWallJumping), wallJumpingDuration);
+        }
+    }
+    
+    private void StopWallJumping()
+    {
+        isWallJumping = false;
+    }
+
+    private void Flip()
+    {
+        if (isFacingRight && moveInput < 0f || !isFacingRight && moveInput > 0f)
+        {
+            isFacingRight = !isFacingRight;
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1f;
+            transform.localScale = localScale;
         }
     }
 
-    void WallTimer()
-    {
-        Debug.Log("WT");
-        if (wallJumpTimer > 0)
-        {
-            wallJumpTimer -= Time.deltaTime;
-            Debug.Log(wallJumpTimer);
-            if (wallJumpTimer <= 0)
-            {
-                rb.velocity = new Vector2(-Mathf.Sign(moveInput) * wallJumpForce.x, wallJumpForce.y);
-                wallJumpTimer = wallJumpTime;
-                Debug.Log("WallJump mamalon");
-            }
-        }
-        
-    }
-        //if (wallJumpTimer >= 0)
-        //{
-        //    //Activar booleano de wallJump
-        //    Debug.Log("Timer XD");
-        //    wallJumpTimer -= Time.deltaTime;
-        //    if (wallJumpTimer >= 0 && wallJump)
-        //    {
-        //        rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -Mathf.Infinity, 0));
-        //    }
-        //}
+    
 }
