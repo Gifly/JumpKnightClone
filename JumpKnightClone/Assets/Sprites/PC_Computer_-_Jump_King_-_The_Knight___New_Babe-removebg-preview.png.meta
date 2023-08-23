@@ -1,0 +1,3017 @@
+fileFormatVersion: 2
+guid: a95f8676027225848b3e60385e42b007
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84500d88163dd1045a6e6a8e8beb37f7
+      internalID: -202330520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651561ba995c4744cba380363514cb41
+      internalID: -1790751704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22839b282486c4942a61c478dd0038ff
+      internalID: -95751377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e3811926101e44fa53ef66c1ec2285
+      internalID: 1923120293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01eb96bbbcc2014da61d8e6181192c6
+      internalID: -138777175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512a3058ffbf4234c9d0af980bed0798
+      internalID: 258309938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e491e5b2e954fac4782e023fce082d30
+      internalID: -2099191569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f22ad3e8274d264a8772ad78ac57644
+      internalID: 910101615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 479
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1070acc7243321d4f909b7ac0aea1e30
+      internalID: -1477477556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 447
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4981ef8122043314eb0df79a94185a58
+      internalID: 2035197401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 447
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085da1aa8ea3d554190efd74ab1fc2f6
+      internalID: -1552899265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 447
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520e484ec3b6aaa40976079728ce4fbf
+      internalID: 349893527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 447
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b0a1bc7ec0b944eac0fbd361b21722
+      internalID: -2032110911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 415
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62a1ac3044680345992a9c35a5eb864
+      internalID: 1888181728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 415
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61e27e90cf602748808ed66a2145db4
+      internalID: -956249165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 415
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6548e0043e08041b4ae13c93e96823
+      internalID: -1870400484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 415
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1516552f503bb42bef166e9e19f620
+      internalID: -1045302370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 415
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd997cc048520bf43a7c431ea52f8248
+      internalID: 1137606901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 415
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb415e59e00781f4ebe77958ca34de11
+      internalID: 1458911864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 415
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b3bdd291561814a8ef3751631d5d2e
+      internalID: -94257281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 415
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec25fe1d4f274c43a46c169f9511558
+      internalID: 1531043069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 415
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af757e47a1724a6429d14fd6af2e9159
+      internalID: 2024087208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 383
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1ddebce4bdce84eaa513921d215f95
+      internalID: 13583294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 383
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec93e0701857204097cb5bd3ef215cb
+      internalID: 1241088937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 383
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580a08a9827c415459bddb72ce99b1ff
+      internalID: -1713322324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 383
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a3c7ed6084d1541bbcb393129d3b1f
+      internalID: 1436455786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 383
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3481209d1bf694d4fa875897b24cd38e
+      internalID: 678926998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 383
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046efb0718a1feb48a5488f0711177e5
+      internalID: -1272953034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 383
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61793a7c8aff62c4db4b88cc28e370e1
+      internalID: -1609620059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 383
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7d08fe2057f124099891cc6f7ad266
+      internalID: -1260349444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 383
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b345d4fc15985b49bf22877e6959fa1
+      internalID: 189539280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 351
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ac4beb4643c4349903387dc3c80beb
+      internalID: -1386918290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 351
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8cc4e7b51d4f847a0b9239cca600d9
+      internalID: -957178124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 351
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6b0f2a1bb08ba49879f189a75f1eef
+      internalID: 262208520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 351
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81f441d95017374cbbbb4f2be67380c
+      internalID: -987248142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 351
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a9a1b7df8da9a4dbc7fb84a2e3a061
+      internalID: 240465015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 351
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019febde6a38f40498ff95e472c53354
+      internalID: -590404692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 351
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90b1097fee182d468acb9463014285f
+      internalID: 818744622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 351
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142fce632e312364bbe6e8eae2b98821
+      internalID: 1626034262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3e5184c4f68544ba23c95b539c4705
+      internalID: 1591262777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181e2d196ce037a41b7554541129641a
+      internalID: -1136407689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d902c7d1da5c7f04fa9352cb27141a83
+      internalID: 1654421917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08633153c50b1f94bb73efcf7d3ba283
+      internalID: -478948356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1075e43a91f6924b9c0ed25c56ae478
+      internalID: 1213808471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7816ff526923f824eb0c68ce4429ef2d
+      internalID: 741333423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3888cc20da61db343886d92612a52fdc
+      internalID: 211271980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2070857bbd5e64cbe238b7cbb18bc5
+      internalID: -504783300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24a579612b4ab543b63a3faa1ca580a
+      internalID: -639485605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 319
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01acf114abd1df14f843bd58026e34f9
+      internalID: -1811212119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46da22cc9f30f30499d7372083a364cc
+      internalID: 176601576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4330d26d64ee9374785b2240561a2f17
+      internalID: 1630701372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdf224bdea66fc499303d9c6b1657a6
+      internalID: 417753007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e211cd30b272b214da98e61395d0e963
+      internalID: -828953155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cff760f69971554c89cae805443a11b
+      internalID: -381880002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99294b1a1a126114383019b265fef6fc
+      internalID: -1372774147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3083a107071e349b8b06d1dfeb3f1e
+      internalID: 118642665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd221973ad7207a4d8b0de80d91fbdee
+      internalID: -1470668982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e757cd426fb9a2343ba452ed636ce83f
+      internalID: -1148711375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 287
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0b5d588141a2e4ebf565366cf79ebc
+      internalID: -1674626463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d05cbdc3eaefe4292fa993211d1ece
+      internalID: -204377035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3102fc94f35dac1488ae89b7f3a0cb73
+      internalID: 824139935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e42dba72531e8249abd6949fc4d1a80
+      internalID: 1232737833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26596f85975bd87439f617c62118372e
+      internalID: 1473103670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8c84327edca9e45b3b2c30f49ef48a
+      internalID: -1591703292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000772946ad258a4e8ae606f053c4b96
+      internalID: -1158977488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e29c242c0d69724283a26e60892d5d0
+      internalID: -344792613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0351b4f5c1dd84fa3b28b5cc122ec6
+      internalID: 1812248329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6e546875be0fe498e17bc27c01c6f5
+      internalID: -1328275624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1098e32fd706344cbfb579a6bbd5094
+      internalID: -608021735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a46203b9916f94b8f6ed58374fc15c
+      internalID: -2098225983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1524147cc5dca242b38a6390a25a4c4
+      internalID: -288783484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a552c9c11135d4dae055722dd2afc6
+      internalID: -764857897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df3240f5d51e114c871f08c68a1f5d3
+      internalID: 1296787294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa5051fa6ec3e34eb2b78c2e31a3180
+      internalID: 1857622532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fe8e2419d85fa448372ad2fe15b47c
+      internalID: -1784060549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2d71a9a49805743bdc92610979d3be
+      internalID: -516543321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b00d994bcf10241a0d8c06b3207aa9
+      internalID: -1462822953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bb72f7fcb36fd4ba9d5bf8ab4ac0d8
+      internalID: 575369507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 223
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d761124a39fc3704b800f68fee5364d4
+      internalID: 1047461595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f7e4fa921c22b45b352dc6b6237c08
+      internalID: 2055841931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda37768d01ad174888690742e767fb0
+      internalID: 2010143070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f195d645656a244acdddf73488f24a
+      internalID: -1668855631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bb852c1f11ede409816c476b1e9253
+      internalID: 1587999276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e46b93d33a57b4385377f479aaca2b
+      internalID: 1631337764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 191
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e5fec1f6069b34ab446027c2f0d3f0
+      internalID: -1022315947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4520720861eb95548a29c501524bb66e
+      internalID: 1248742591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19ba7489e4961844aac577289f8a92e
+      internalID: -1224784694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e13ad332dbedac469f56b792f1bd09e
+      internalID: 859582235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc171e23798870047b1f02ae8cc68b3b
+      internalID: -2010458657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7970a1a37899fa74fa25594b9a03c6fb
+      internalID: 340885982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8368626b26b9214eb128ca53110e816
+      internalID: 690101000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918727f1810078944bca9f59d6453d2e
+      internalID: 388821060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e29dd62fc6cf34b986d6f51dcdede7
+      internalID: 454971065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e553e083b819594e8c0179c5fdf9128
+      internalID: -1719409067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 159
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc126352c9789724391e5d80de50ec8c
+      internalID: -1014126611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79e17d4ed763474198df71bc9170286
+      internalID: 397946409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_96
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112779b867bc12b4aa27b08936307579
+      internalID: 316797346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_97
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f5cf3637736c488477d53367c084e
+      internalID: 1700538755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_98
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c32fd34345a13a4cb55363c1eb7e78d
+      internalID: 1934937493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_99
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1477aad634f379d4d9d079ca4c76f463
+      internalID: 198775275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_100
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6ba26e80d8355428f3b36f65652457
+      internalID: 1779281918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_101
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f37acdef6342146931e2a299ab98db
+      internalID: 1734346314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_102
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af75ac75ce59fc94a8aac90c998d311e
+      internalID: 500989765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_103
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaea88f29a4398d4da2336a3eee91cec
+      internalID: 690361384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_104
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 127
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d79b906effd0745b787e5d59c357a1
+      internalID: -820420516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_105
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c279a9b2aef6764ab9e8ddca5f72432
+      internalID: 1592856991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_106
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98508dfc82d8f7842b24efb1102ed2d0
+      internalID: 212417422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_107
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27d4fd47e51f144cb4cd53ec840a3cd
+      internalID: 719372936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_108
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1ce56a20e88b845998db680d9c4fa1
+      internalID: -1985680613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_109
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f715bab75e4ec42bb3886d2b4f9d20
+      internalID: 2078427042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_110
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e625f089a8b40c4da3f41da01bf8ef2
+      internalID: 673504976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_111
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ce8e28f9f4a4b47abb95a6bda5cf01
+      internalID: 185294562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_112
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681b03536a5092b449b12433f28378aa
+      internalID: -195361277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_113
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b21e6582e358e047b82e94c429cbf12
+      internalID: 1391537310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_114
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 95
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcbbe5b8b78ffb4193d55cd067af04b
+      internalID: 131233450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_115
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ad65278cb02074fa440cd9224e597b
+      internalID: 2144281810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_116
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d57b07412fbc3b4ab34ab441196e27c
+      internalID: 1106649235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_117
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ded940c82c4494408fccecd7f1a778d
+      internalID: 1811603606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_118
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a4272b4e784f944a36e32178cedd67
+      internalID: -1320612703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_119
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dae42d8d5661f4db756dcacf6485b5
+      internalID: 1988543564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_120
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fdc19a1f7a0e04083f5a8f8506bc63
+      internalID: -57325635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_121
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f21f0f55732f24284c288e9d21a948
+      internalID: -1661297322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_122
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e8372de4a294d4680b0f5c382e6895
+      internalID: -1974071742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_123
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19c3c8d893f0e54b8b8927bf5b2ea02
+      internalID: 1942765802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_124
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 63
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0226f2f663d77438b2448c72b11da8
+      internalID: -1275615437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_125
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f7a00c2b0225a4eb4e65b0da78b39a
+      internalID: -1399383845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_126
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a0e5bcc9dfa6349bb4dc41cc72aca5
+      internalID: -917485885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_127
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51485f369952194479515659dd93bca5
+      internalID: 1641123502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_128
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17917d83a2a68f942ad5b91c8b9cbeb2
+      internalID: -731727795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_129
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132e2d58a1e2e5344bd1e9228e872e67
+      internalID: 1726643499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_130
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 31
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59e6ae7b20a02945a623c6b4193adc4
+      internalID: 708387993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_0: -202330520
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_1: -1790751704
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_10: -1552899265
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_100: 1779281918
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_101: 1734346314
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_102: 500989765
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_103: 690361384
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_104: -820420516
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_105: 1592856991
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_106: 212417422
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_107: 719372936
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_108: -1985680613
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_109: 2078427042
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_11: 349893527
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_110: 673504976
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_111: 185294562
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_112: -195361277
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_113: 1391537310
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_114: 131233450
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_115: 2144281810
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_116: 1106649235
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_117: 1811603606
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_118: -1320612703
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_119: 1988543564
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_12: -2032110911
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_120: -57325635
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_121: -1661297322
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_122: -1974071742
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_123: 1942765802
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_124: -1275615437
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_125: -1399383845
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_126: -917485885
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_127: 1641123502
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_128: -731727795
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_129: 1726643499
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_13: 1888181728
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_130: 708387993
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_14: -956249165
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_15: -1870400484
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_16: -1045302370
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_17: 1137606901
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_18: 1458911864
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_19: -94257281
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_2: -95751377
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_20: 1531043069
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_21: 2024087208
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_22: 13583294
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_23: 1241088937
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_24: -1713322324
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_25: 1436455786
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_26: 678926998
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_27: -1272953034
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_28: -1609620059
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_29: -1260349444
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_3: 1923120293
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_30: 189539280
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_31: -1386918290
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_32: -957178124
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_33: 262208520
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_34: -987248142
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_35: 240465015
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_36: -590404692
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_37: 818744622
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_38: 1626034262
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_39: 1591262777
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_4: -138777175
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_40: -1136407689
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_41: 1654421917
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_42: -478948356
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_43: 1213808471
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_44: 741333423
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_45: 211271980
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_46: -504783300
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_47: -639485605
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_48: -1811212119
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_49: 176601576
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_5: 258309938
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_50: 1630701372
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_51: 417753007
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_52: -828953155
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_53: -381880002
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_54: -1372774147
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_55: 118642665
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_56: -1470668982
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_57: -1148711375
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_58: -1674626463
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_59: -204377035
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_6: -2099191569
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_60: 824139935
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_61: 1232737833
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_62: 1473103670
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_63: -1591703292
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_64: -1158977488
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_65: -344792613
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_66: 1812248329
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_67: -1328275624
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_68: -608021735
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_69: -2098225983
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_7: 910101615
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_70: -288783484
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_71: -764857897
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_72: 1296787294
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_73: 1857622532
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_74: -1784060549
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_75: -516543321
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_76: -1462822953
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_77: 575369507
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_78: 1047461595
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_79: 2055841931
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_8: -1477477556
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_80: 2010143070
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_81: -1668855631
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_82: 1587999276
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_83: 1631337764
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_84: -1022315947
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_85: 1248742591
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_86: -1224784694
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_87: 859582235
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_88: -2010458657
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_89: 340885982
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_9: 2035197401
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_90: 690101000
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_91: 388821060
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_92: 454971065
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_93: -1719409067
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_94: -1014126611
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_95: 397946409
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_96: 316797346
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_97: 1700538755
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_98: 1934937493
+      PC_Computer_-_Jump_King_-_The_Knight___New_Babe-removebg-preview_99: 198775275
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

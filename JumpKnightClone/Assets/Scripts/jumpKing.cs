@@ -41,6 +41,12 @@ public class jumpKing : MonoBehaviour
         //Movement Controller
         moveInput = Input.GetAxisRaw("Horizontal");
 
+        Flip();
+    
+        if (isGrounded())
+        {
+            canJump = true;
+        }
         //Move when it is not walking and is touching ground
         if (jumpValue == 0.0f && isGrounded())
         {
@@ -48,14 +54,14 @@ public class jumpKing : MonoBehaviour
         }
 
         //Change physics materials if is jumping or not for bouncingness
-        if (jumpValue > 0)
-        {
-            rb.sharedMaterial = bounceMat;
-        }
-        else
-        {
-            rb.sharedMaterial = normalMat;
-        }
+        //if (jumpValue > 0)
+        //{
+        //    rb.sharedMaterial = bounceMat;
+        //}
+        //else
+        //{
+        //    rb.sharedMaterial = normalMat;
+        //}
 
         //When click space and is touching ground, start charging the jump force
         if (Input.GetKey("space") && isGrounded() && canJump)
@@ -68,7 +74,7 @@ public class jumpKing : MonoBehaviour
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
         }
         //If is not touching ground and can double jump, when press space, add force in y
-        if (Input.GetKeyDown("space") && canDoubleJump && !isGrounded())
+        if (Input.GetKeyDown("space") && canDoubleJump && !isGrounded() && !isWalled())
         {
             Debug.Log("Double Jump");
             //Invoke("ResetJump", 0.2f);
@@ -94,10 +100,16 @@ public class jumpKing : MonoBehaviour
                 rb.velocity = new Vector2(moveInput * walkSpeed, jumpValue);
                 jumpValue = 0.0f;
                 canDoubleJump = true;
-                
+                Invoke("ResetJump", 0.2f); 
             }
-            canJump = true;
+            //canJump = true;
         }
+
+        if (isWallSliding && Input.GetKeyDown("space"))
+        {
+            WallJump();
+        }
+        WallSlide();
 
         // Checkpoint logic
         jumpDistance += Mathf.Abs(rb.velocity.y) * Time.deltaTime;
@@ -123,8 +135,6 @@ public class jumpKing : MonoBehaviour
             jumpDistance = 0.0f;
             //Debug.Log("Going to checkpoint");
         }
-        WallSlide();
-        WallJump();
 
         //if (!isWallJumping)
         //{
@@ -168,22 +178,38 @@ public class jumpKing : MonoBehaviour
         if (isWalled() && !isGrounded() && moveInput != 0f)
         {
             Debug.Log("WallSliding");
+            canDoubleJump = false;
             isWallSliding = true;
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
         }
         else
         {
             isWallSliding = false;
+            if(!isGrounded())
+            {
+                canDoubleJump = true;
+
+            }
         }   
     }
 
     private void WallJump()
     {
+        if (isFacingRight == true)
+        {
+            wallJumpingDirection = 1f;
+        }
+        else
+        {
+            wallJumpingDirection = -1f;
+        }
+
         if (isWallSliding)
         {
             isWallJumping = false;
             wallJumpingDirection = -transform.localScale.x;
             wallJumpingCounter = wallJumpingTime;
+            Debug.Log("WallJumpingCounter = " + wallJumpingCounter);
 
             CancelInvoke(nameof(StopWallJumping));
         }
@@ -221,7 +247,7 @@ public class jumpKing : MonoBehaviour
         if (isFacingRight && moveInput < 0f || !isFacingRight && moveInput > 0f)
         {
             isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
+            Vector2 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
