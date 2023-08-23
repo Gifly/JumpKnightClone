@@ -24,16 +24,19 @@ public class jumpKing : MonoBehaviour
     private float wallJumpingTime = 0.2f;
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.4f;
-    private Vector2 wallJumpingPower = new Vector2(8f, 16f);
+    public Vector2 wallJumpingPower = new Vector2(2f, 16f);
 
-    public float checkpointThreshold = 100.0f;
+    public float checkpointThreshold = 10.0f;
     private bool canSetCheckpoint = false;
     private Vector2 checkpointPosition;
     private bool hasCheckpoint = false;
 
+    public Animator anim;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
@@ -42,7 +45,33 @@ public class jumpKing : MonoBehaviour
         moveInput = Input.GetAxisRaw("Horizontal");
 
         Flip();
-    
+        //animation controller
+        if(Mathf.Abs(moveInput) > 0 && rb.velocity.y == 0)
+        {
+            anim.SetBool("isWalking", true);
+        }
+        else
+        {
+            anim.SetBool("isWalking", false);
+        }
+
+        if(rb.velocity.y == 0)
+        {
+            anim.SetBool("isJumping", false);
+            anim.SetBool("isFalling", false);
+        }
+
+        if(rb.velocity.y > 0)
+        {
+            anim.SetBool("isJumping", true);
+        }
+
+        if (rb.velocity.y < 0)
+        {
+            anim.SetBool("isFalling", true);
+            anim.SetBool("isJumping", false);
+        }
+
         if (isGrounded())
         {
             canJump = true;
@@ -67,6 +96,7 @@ public class jumpKing : MonoBehaviour
         if (Input.GetKey("space") && isGrounded() && canJump)
         {
             jumpValue += 0.1f;
+            anim.SetBool("chargingJump", true);
         }
         //In the instant that space is pressed and is grounded, stop moving and mantain y movemement.
         if(Input.GetKeyDown("space") && isGrounded() && canJump)
@@ -89,7 +119,7 @@ public class jumpKing : MonoBehaviour
             rb.velocity = new Vector2(tempx, tempy);
             Invoke("ResetJump", 0.2f);
             canDoubleJump = true;
-
+            anim.SetBool("chargingJump", false);
         }
 
         //when release space, jump
@@ -100,7 +130,8 @@ public class jumpKing : MonoBehaviour
                 rb.velocity = new Vector2(moveInput * walkSpeed, jumpValue);
                 jumpValue = 0.0f;
                 canDoubleJump = true;
-                Invoke("ResetJump", 0.2f); 
+                Invoke("ResetJump", 0.2f);
+                anim.SetBool("chargingJump", false);
             }
             //canJump = true;
         }
@@ -181,10 +212,12 @@ public class jumpKing : MonoBehaviour
             canDoubleJump = false;
             isWallSliding = true;
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+            anim.SetBool("isSliding", true);
         }
         else
         {
             isWallSliding = false;
+            anim.SetBool("isSliding", false);
             if(!isGrounded())
             {
                 canDoubleJump = true;
