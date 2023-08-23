@@ -32,6 +32,8 @@ public class jumpKing : MonoBehaviour
     private bool hasCheckpoint = false;
 
     public Animator anim;
+    public GameObject spawnBonfire;
+    public GameObject player;
 
     void Start()
     {
@@ -153,9 +155,11 @@ public class jumpKing : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.C) && canSetCheckpoint)
         {
+
             checkpointPosition = transform.position;
             canSetCheckpoint = false;
             hasCheckpoint = true;
+            Instantiate(spawnBonfire, player.transform.position, player.transform.rotation );
             //Debug.Log("Checkpoint setted");
 
         }

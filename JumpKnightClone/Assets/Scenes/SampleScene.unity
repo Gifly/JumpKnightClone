@@ -1037,7 +1037,11 @@ MonoBehaviour:
   canJump: 1
   canDoubleJump: 0
   jumpValue: 0
+  wallJumpingPower: {x: 2, y: 16}
   checkpointThreshold: 10
+  anim: {fileID: 564743395}
+  spawnBonfire: {fileID: 7190040179971791885, guid: 9c03ddbcbc8b38f41a63f44050f28b45, type: 3}
+  player: {fileID: 564743387}
 --- !u!95 &564743395
 Animator:
   serializedVersion: 5
